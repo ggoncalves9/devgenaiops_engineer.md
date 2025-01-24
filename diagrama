@@ -1,13 +1,12 @@
-graph TD
-    S1[Semana 1: Terraform]
-    S2[Semana 2: Python]
-    S3[Semana 3: Kubernetes]
-    S4[Semana 4: GitHub Actions e GitHub]
-
-    S1 --> S2
-    S2 --> S3
-    S3 --> S4
-
+```mermaid
+gantt
+    title Roadmap de Estudos DevOps
+    dateFormat  YYYY-MM-DD
+    section Planejamento
+    Semana 1: Terraform           :done,    s1, 2025-01-01,2025-01-07
+    Semana 2: Python              :done,    s2, 2025-01-08,2025-01-14
+    Semana 3: Kubernetes          :active,  s3, 2025-01-15,2025-01-21
+    Semana 4: GitHub Actions e GitHub :        s4, 2025-01-22,2025-01-28
 
   ---
 
